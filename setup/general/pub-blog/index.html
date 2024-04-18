@@ -9,12 +9,12 @@
 <link href="../pub-meta/" rel="prev">
 <link href="../pub-obsidian/" rel="next">
 <link href="../../../publisher_icon.png" rel="icon">
-<meta content="mkdocs-1.5.3, mkdocs-material-9.4.5" name="generator">
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.18" name="generator">
 <title>
 Setting up a blog - Publisher for MkDocs
 </title>
-<link href="../../../assets/stylesheets/main.6a10b989.min.css" rel="stylesheet">
-<link href="../../../assets/stylesheets/palette.356b1318.min.css" rel="stylesheet">
+<link href="../../../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet">
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet">
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CLato:400,400i,700,700i&amp;display=fallback" rel="stylesheet">
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Lato"}</style>
@@ -35,7 +35,6 @@ Setting up a blog - Publisher for MkDocs
 <meta content="Setting up a Publisher for MkDocs blog plugin for blogging functionality" property="twitter:description">
 </head>
 <body data-md-color-accent="orange" data-md-color-primary="orange" data-md-color-scheme="default" dir="ltr">
-<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input type="checkbox" id="__drawer" class="md-toggle" autocomplete="off" data-md-toggle="drawer">
 <input type="checkbox" id="__search" class="md-toggle" autocomplete="off" data-md-toggle="search">
 <label for="__drawer" class="md-overlay">
@@ -73,21 +72,22 @@ Setting up a blog
 </div>
 </div>
 <form class="md-header__option" data-md-component="palette">
-<input type="radio" id="__palette_1" class="md-option" aria-label="Switch to dark mode" data-md-color-accent="orange" data-md-color-media="" data-md-color-primary="orange" data-md-color-scheme="default" name="__palette">
-<label for="__palette_2" class="md-icon md-header__button" hidden title="Switch to dark mode">
+<input type="radio" id="__palette_0" class="md-option" aria-label="Switch to dark mode" data-md-color-accent="orange" data-md-color-media="" data-md-color-primary="orange" data-md-color-scheme="default" name="__palette">
+<label for="__palette_1" class="md-icon md-header__button" hidden title="Switch to dark mode">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z">
 </path>
 </svg>
 </label>
-<input type="radio" id="__palette_2" class="md-option" aria-label="Switch to light mode" data-md-color-accent="orange" data-md-color-media="" data-md-color-primary="orange" data-md-color-scheme="slate" name="__palette">
-<label for="__palette_1" class="md-icon md-header__button" hidden title="Switch to light mode">
+<input type="radio" id="__palette_1" class="md-option" aria-label="Switch to light mode" data-md-color-accent="orange" data-md-color-media="" data-md-color-primary="orange" data-md-color-scheme="slate" name="__palette">
+<label for="__palette_0" class="md-icon md-header__button" hidden title="Switch to light mode">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z">
 </path>
 </svg>
 </label>
 </form>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
 <label for="__search" class="md-icon md-header__button">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z">
@@ -141,10 +141,10 @@ Initializing search
 </div>
 </div>
 <div class="md-header__source">
-<a href="https://github.com/mkusz/mkdocs-publisher" class="md-source" title="Go to repository" data-md-component="source">
+<a href="https://github.com/mkusz/mkdocs-publisher/" class="md-source" title="Go to repository" data-md-component="source">
 <div class="md-icon md-source__icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
+<!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.-->
 <path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z">
 </path>
 </svg>
@@ -162,8 +162,7 @@ mkusz/mkdocs-publisher
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
 <a href="../../.." class="md-tabs__link">
-<i class="fa-house fa-solid">
-</i>
+Home
 </a>
 </li>
 <li class="md-tabs__item md-tabs__item--active">
@@ -177,7 +176,7 @@ How to publish
 </a>
 </li>
 <li class="md-tabs__item">
-<a href="../../../blog/" class="md-tabs__link">
+<a href="../../../index-0/" class="md-tabs__link">
 Blog
 </a>
 </li>
@@ -202,10 +201,10 @@ Development
 Publisher for MkDocs
 </label>
 <div class="md-nav__source">
-<a href="https://github.com/mkusz/mkdocs-publisher" class="md-source" title="Go to repository" data-md-component="source">
+<a href="https://github.com/mkusz/mkdocs-publisher/" class="md-source" title="Go to repository" data-md-component="source">
 <div class="md-icon md-source__icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
+<!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.-->
 <path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z">
 </path>
 </svg>
@@ -219,8 +218,7 @@ mkusz/mkdocs-publisher
 <li class="md-nav__item">
 <a href="../../.." class="md-nav__link">
 <span class="md-ellipsis">
-<i class="fa-house fa-solid">
-</i>
+Home
 </span>
 </a>
 </li>
@@ -309,34 +307,46 @@ Table of contents
 <ul class="md-nav__list" data-md-scrollfix="" data-md-component="toc">
 <li class="md-nav__item">
 <a href="#introduction" class="md-nav__link">
+<span class="md-ellipsis">
 Introduction
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#configuration" class="md-nav__link">
+<span class="md-ellipsis">
 Configuration
+</span>
 </a>
 <nav class="md-nav" aria-label="Configuration">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a href="#general" class="md-nav__link">
+<span class="md-ellipsis">
 General
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#directories" class="md-nav__link">
+<span class="md-ellipsis">
 Directories
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#language" class="md-nav__link">
+<span class="md-ellipsis">
 Language
+</span>
 </a>
 <nav class="md-nav" aria-label="Language">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a href="#translation" class="md-nav__link">
+<span class="md-ellipsis">
 Translation
+</span>
 </a>
 </li>
 </ul>
@@ -437,9 +447,9 @@ Setting up debugger
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_3" class="md-toggle md-nav__toggle">
-<label for="__nav_3" class="md-nav__link" id="__nav_3_label" tabindex="">
+<label for="__nav_3" class="md-nav__link" id="__nav_3_label" tabindex="0">
 <span class="md-ellipsis">
 How to publish
 </span>
@@ -463,9 +473,9 @@ First steps
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_4" class="md-toggle md-nav__toggle">
-<label for="__nav_4" class="md-nav__link" id="__nav_4_label" tabindex="">
+<label for="__nav_4" class="md-nav__link" id="__nav_4_label" tabindex="0">
 <span class="md-ellipsis">
 Blog
 </span>
@@ -480,15 +490,15 @@ Blog
 </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a href="../../../blog/" class="md-nav__link">
+<a href="../../../index-0/" class="md-nav__link">
 <span class="md-ellipsis">
 index-0
 </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_4_2" class="md-toggle md-nav__toggle">
-<label for="__nav_4_2" class="md-nav__link" id="__nav_4_2_label" tabindex="">
+<label for="__nav_4_2" class="md-nav__link" id="__nav_4_2_label" tabindex="0">
 <span class="md-ellipsis">
 Archive
 </span>
@@ -503,6 +513,13 @@ Archive
 </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a href="../../../blog/archive/2024/" class="md-nav__link">
+<span class="md-ellipsis">
+2024
+</span>
+</a>
+</li>
+<li class="md-nav__item">
 <a href="../../../blog/archive/2023/" class="md-nav__link">
 <span class="md-ellipsis">
 2023
@@ -512,9 +529,9 @@ Archive
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_4_3" class="md-toggle md-nav__toggle">
-<label for="__nav_4_3" class="md-nav__link" id="__nav_4_3_label" tabindex="">
+<label for="__nav_4_3" class="md-nav__link" id="__nav_4_3_label" tabindex="0">
 <span class="md-ellipsis">
 Categories
 </span>
@@ -538,9 +555,9 @@ release
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_4_4" class="md-toggle md-nav__toggle">
-<label for="__nav_4_4" class="md-nav__link" id="__nav_4_4_label" tabindex="">
+<label for="__nav_4_4" class="md-nav__link" id="__nav_4_4_label" tabindex="0">
 <span class="md-ellipsis">
 Tags
 </span>
@@ -555,14 +572,14 @@ Tags
 </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a href="../../../blog/tags/v0x/" class="md-nav__link">
+<a href="../../../blog/tags/v0.x/" class="md-nav__link">
 <span class="md-ellipsis">
 v0.x
 </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a href="../../../blog/tags/v1x/" class="md-nav__link">
+<a href="../../../blog/tags/v1.x/" class="md-nav__link">
 <span class="md-ellipsis">
 v1.x
 </span>
@@ -574,9 +591,9 @@ v1.x
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_5" class="md-toggle md-nav__toggle">
-<label for="__nav_5" class="md-nav__link" id="__nav_5_label" tabindex="">
+<label for="__nav_5" class="md-nav__link" id="__nav_5_label" tabindex="0">
 <span class="md-ellipsis">
 Development
 </span>
@@ -623,9 +640,9 @@ Versioning
 </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--nested md-nav__item--section">
+<li class="md-nav__item md-nav__item--nested">
 <input type="checkbox" id="__nav_5_4" class="md-toggle md-nav__toggle">
-<label for="__nav_5_4" class="md-nav__link" id="__nav_5_4_label" tabindex="">
+<label for="__nav_5_4" class="md-nav__link" id="__nav_5_4_label" tabindex="0">
 <span class="md-ellipsis">
 Other
 </span>
@@ -673,34 +690,46 @@ Table of contents
 <ul class="md-nav__list" data-md-scrollfix="" data-md-component="toc">
 <li class="md-nav__item">
 <a href="#introduction" class="md-nav__link">
+<span class="md-ellipsis">
 Introduction
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#configuration" class="md-nav__link">
+<span class="md-ellipsis">
 Configuration
+</span>
 </a>
 <nav class="md-nav" aria-label="Configuration">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a href="#general" class="md-nav__link">
+<span class="md-ellipsis">
 General
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#directories" class="md-nav__link">
+<span class="md-ellipsis">
 Directories
+</span>
 </a>
 </li>
 <li class="md-nav__item">
 <a href="#language" class="md-nav__link">
+<span class="md-ellipsis">
 Language
+</span>
 </a>
 <nav class="md-nav" aria-label="Language">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a href="#translation" class="md-nav__link">
+<span class="md-ellipsis">
 Translation
+</span>
 </a>
 </li>
 </ul>
@@ -716,13 +745,13 @@ Translation
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-typeset md-content__inner">
-<a href="https://github.com/mkusz/mkdocs-publisher/edit/main/mkdocs_publisher_docs/02_setup/02_general/02_setting-up-blog.md" class="md-icon md-content__button" title="Edit this page">
+<a href="https://github.com/mkusz/mkdocs-publisher/edit/main/mkdocs_publisher_docs/03_setup/02_general/02_setting-up-blog.md" class="md-icon md-content__button" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z">
 </path>
 </svg>
 </a>
-<a href="https://github.com/mkusz/mkdocs-publisher/raw/main/mkdocs_publisher_docs/02_setup/02_general/02_setting-up-blog.md" class="md-icon md-content__button" title="View source of this page">
+<a href="https://github.com/mkusz/mkdocs-publisher/raw/main/mkdocs_publisher_docs/03_setup/02_general/02_setting-up-blog.md" class="md-icon md-content__button" title="View source of this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z">
 </path>
@@ -772,7 +801,7 @@ directory, so they are not visible and do not interfere with your content.
 </p>
 <p>
 This documentation contains a
-<a href="../../../blog/" id="blog">
+<a href="../../../blog/" id="6fcbe80098adf63e8dbbc99e76e06f89">
 blog
 </a>
 that is created using this plugin, so you can take a look at a living example.
@@ -825,7 +854,7 @@ mkdocs.yml
 <label for="_1">
 <span class="twemoji">
 <svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
-<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
+<!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.-->
 <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32v352c0 35.3 28.7 64 64 64h192v-64H64V160h192V96H64V32zm224 160c0 17.7 14.3 32 32 32h224c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32h-98.7c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32v160zm0 288c0 17.7 14.3 32 32 32h224c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32h-98.7c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V480z">
 </path>
 </svg>
@@ -882,7 +911,7 @@ Add to existing site layout
 <div class="tabbed-block">
 <p>
 When
-<a href="../pub-meta/" id="01-setting-up-meta">
+<a href="../pub-meta/" id="d26f9b05a419507da01579aab59c2d86">
 pub-meta
 </a>
 plugin is configured and the directory for blog posts is set up, there is nothing more left to be configured. All the things related to creating a navigation section will be handled automatically by the
@@ -945,7 +974,7 @@ Blog standalone mode
 </p>
 <p>
 Standalone mode (blog as a starting page) was removed in version
-<a href="../../../blog/v100/" id="04-blogv100-obsidian">
+<a href="../../../blog/v100/" id="796c8a52697fdedd2cca511c570d6c50">
 v0.6.0
 </a>
 and now this is automatically detected, based on site navigation structure.
@@ -1069,7 +1098,7 @@ mkdocs.yml
 <label for="_2">
 <span class="twemoji">
 <svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
-<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
+<!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.-->
 <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32v352c0 35.3 28.7 64 64 64h192v-64H64V160h192V96H64V32zm224 160c0 17.7 14.3 32 32 32h224c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32h-98.7c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32v160zm0 288c0 17.7 14.3 32 32 32h224c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32h-98.7c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V480z">
 </path>
 </svg>
@@ -1279,13 +1308,12 @@ Backlinks:
 <div class="obsidian_backlink">
 <details class="backlink">
 <summary>
-<i class="fa-house fa-solid">
-</i>
+Home
 </summary>
 <p>
 </p><p class="obsidian_backlink">
 - creating a blog posts with automatic build of archive, categories, tags, and index pages (
-<a href="https://mkusz.github.io/mkdocs-publisher/#02-setup02-general02-setting-up-blog">
+<a href="https://mkusz.github.io/mkdocs-publisher/#75f602a2d46bc3871a007245084d69ad">
 pub-blog
 </a>
 plugin),
@@ -1299,15 +1327,19 @@ Setting up meta
 <p>
 </p><p class="obsidian_backlink">
 As described in the previous section, you can provide additional meta-data that is unique for that document, and can change some behavior of the meta plugin, but not only. Some other MkDocs plugins also utilize these types of settings. One of the plugins is
-<a href="https://mkusz.github.io/mkdocs-publisher/setup/general/pub-meta/#02-setting-up-blog">
+<a href="https://mkusz.github.io/mkdocs-publisher/setup/general/pub-meta/#2ded5c2072e33b26b570b568e983cd59">
 pub-blog
 </a>
-or plugins included in Material for MkDocs.
+or plugins included in
+<a href="https://squidfunk.github.io/mkdocs-material/">
+https://squidfunk.github.io/mkdocs-material/
+</a>
+.
 </p>
 <hr>
 <p class="obsidian_backlink">
 This defines a value for the document's creation date. It's also used by
-<a href="https://mkusz.github.io/mkdocs-publisher/setup/general/pub-meta/#02-setting-up-blog">
+<a href="https://mkusz.github.io/mkdocs-publisher/setup/general/pub-meta/#2ded5c2072e33b26b570b568e983cd59">
 a blog plugin
 </a>
 for blog posts ordering and a meta plugin for updating a sitemap file.
@@ -1318,6 +1350,7 @@ for blog posts ordering and a meta plugin for updating a sitemap file.
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
 <button class="md-icon md-top" type="button" data-md-component="top" hidden>
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -1384,9 +1417,9 @@ Material for MkDocs
 <div class="md-progress" data-md-component="progress" role="progressbar">
 </div>
 <script id="__config" type="application/json">
-{"base": "../../..", "features": ["navigation.tabs", "navigation.footer", "navigation.tracking", "navigation.top", "navigation.sections", "navigation.instant", "navigation.instant.progress", "search.suggest", "search.highlight", "search.share", "content.action.edit", "content.action.view", "content.code.copy", "content.code.annotate", "content.tabs.link", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}
+{"base": "../../..", "features": ["navigation.tabs", "navigation.footer", "navigation.tracking", "navigation.top", "navigation.sections", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "search.suggest", "search.highlight", "search.share", "content.action.edit", "content.action.view", "content.code.copy", "content.code.annotate", "content.tabs.link", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}
 </script>
-<script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+<script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
 <script src="../../../javascripts/mathjax.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
