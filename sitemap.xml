@@ -12,7 +12,7 @@
     </url>
     <url>
          <loc>https://mkusz.github.io/mkdocs-publisher/setup/general/pub-meta/</loc>
-         <lastmod>2024-04-15</lastmod>
+         <lastmod>2024-04-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -97,7 +97,12 @@
     </url>
     <url>
          <loc>https://mkusz.github.io/mkdocs-publisher/blog/v130/</loc>
-         <lastmod>2024-04-18</lastmod>
+         <lastmod>2024-04-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mkusz.github.io/mkdocs-publisher/blog/v131/</loc>
+         <lastmod>2024-04-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
