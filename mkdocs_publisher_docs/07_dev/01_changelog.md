@@ -13,14 +13,31 @@ categories:
 
 # Version history
 
+## 1.4.0
+
+### :material-list-box: General
+
+- ❎ extend overall code coverage
+- ♻️ code refactor of some shared libraries
+
+### :material-newspaper-variant-multiple: Blog
+
+- ✅ blog post link title attribute
+
+### :material-file-tree: Meta
+
+- ❎ support for links and redirections
+- ✅ images link (remove hack fix)
+- ♻️ code refactor in many places
+
 ## 1.3.1 - 2024-04-21
 
 ### :material-file-tree: Meta
 
-- fix for hidden pages not being hidden when in a hidden directory
-- fix for missing title warning display when file is an overview
-- fix for links normalization
-- fix cross plugins errors when one of the plugins is disabled
+- ✅ hidden pages not being hidden when in a hidden directory
+- ✅ missing title warning display when file is an overview
+- ✅ links normalization
+- ✅ cross plugins errors when one of the plugins is disabled
 
 ## 1.3.0 -2024-04-17
 
