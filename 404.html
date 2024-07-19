@@ -6,11 +6,10 @@
 </head>
 <body>
     <script type="text/javascript">
-        var url = new URL(window.location.href);
-        url.host = 'mkdocs-publisher.github.io';
-        url.pathname = url.pathname.replace('mkdocs-publisher/', '');
-        console.log(url.href);
-        windows.location.replace(url.href);
+        var url = window.location;
+        url = url.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
+        console.log(url);
+        window.location.replace(url);
     <script>
 </body>
 </html>
