@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Redirect to MkDocs Publisher documentation</title>
+    <script>
+        window.onload = function() {
+            var url = window.location;
+            url = url.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
+            console.log(url);
+            window.location.replace(url);
+        }
+    </script>
 </head>
 <body>
-    <script type="text/javascript">
-        var url = window.location;
-        url = url.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
-        console.log(url);
-        window.location.replace(url);
-    <script>
+    
 </body>
 </html>
