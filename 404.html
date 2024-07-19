@@ -9,6 +9,7 @@
         var url = new URL(window.location.href);
         url.host = 'mkdocs-publisher.github.io';
         url.pathname = url.pathname.replace('mkdocs-publisher/', '');
+        console.log(url.href);
         windows.location.replace(url.href);
     <script>
 </body>
