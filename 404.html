@@ -11,10 +11,7 @@
             var url = new URL(window.location);
             url.host = 'mkdocs-publisher.github.io';
             url.pathname = url.pathname.replace('mkdocs-publisher/', '');
-            console.log(url.href);
-            setTimeout(function() {
-                window.location.replace(url.href);
-            }, 5000);    
+            window.location.replace(url.href);   
         }
     </script>
 </body>
