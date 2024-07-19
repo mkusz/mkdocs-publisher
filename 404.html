@@ -9,7 +9,7 @@
     <script>
         window.onload = function() {
             var url = new URL(window.location);
-            url.pathname = url.pathname('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
+            url.pathname = url.pathname.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
             setTimeout(function() {
                 console.log(url.href);
             }, 5000);
