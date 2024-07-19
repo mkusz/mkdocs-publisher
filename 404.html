@@ -9,11 +9,12 @@
     <script>
         window.onload = function() {
             var url = new URL(window.location);
-            url.pathname = url.pathname.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
+            url.host = "mkdocs-publisher.github.io;
+            url.pathname = url.pathname.replace('mkdocs-publisher/', '');
+            console.log(url.href);
             setTimeout(function() {
-                console.log(url.href);
-            }, 5000);
-            window.location.replace(url.href);
+                window.location.replace(url.href);
+            }, 5000);    
         }
     </script>
 </body>
