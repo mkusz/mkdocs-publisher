@@ -11,7 +11,10 @@
             var url = window.location;
             var newUrl = url.replace('mkusz.github.io/mkdocs-publisher/', 'mkdocs-publisher.github.io/');
             console.log(newUrl);
-            window.location.replace(newUrl);
+            setTimeout(function() {
+                window.location.replace(newUrl);
+            }, 5000);
+           
         }
     </script>
 </body>
